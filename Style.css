@@ -1,0 +1,95 @@
+@charset "";
+/* CSS Document */
+
+
+
+body {
+    background:url(img/bg-body.jpg) 0px 0px repeat;
+    padding:0px;
+    margin:0px;
+}
+
+.logo{
+
+}
+
+.logo a {
+
+    margin: 1px 1px 1px 10px;
+}
+.header{
+    width: 100%;
+    position: relative;
+    padding-top: 61px;
+
+}
+
+.akk {
+    font-size: 10px;
+    color: #6C2A01;
+    text-align:right;
+    text-transform: uppercase;
+    margin: 36px 12px 10px 0;
+    font-family: 'Anton', sans-serif;
+}
+
+.link{
+    color: #ffae19;
+    text-decoration: none;
+
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #723002;
+}
+
+#navigation{
+    height: 60px;
+}
+.navigation{
+    margin: 0px 10px 10px 1px;
+    width: 100%;
+    height: 60px;
+    background-color:#723002;
+    font-family: 'Anton', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    padding: 32px 0 32px 0;
+    color: #ffffff;
+    overflow: hidden;
+    border-collapse: collapse; /* Отображать только одинарные линии */
+}
+.navigation td {
+    border: 2px solid black; /* Граница вокруг ячеек */
+}
+
+.navigation td:hover{
+    background: #ffae19;
+}
+
+#content{
+    width: 1110px;
+    height: auto;
+    margin: 0px auto;
+    background: rgb(255, 255, 255);
+}
+
+
+
+#maincontent{
+
+    width: 1110px;
+    height: auto;
+}
+
+.menu{
+    float: left;
+    width: 20%;
+    background: #ffffff;
+}
+
+.content{
+    background: #ffffff;
+    width: 80%;
+    }
