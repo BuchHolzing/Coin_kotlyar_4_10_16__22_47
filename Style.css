@@ -9,10 +9,6 @@ body {
     margin:0px;
 }
 
-.logo{
-
-}
-
 .logo a {
 
     margin: 1px 1px 1px 10px;
@@ -21,7 +17,6 @@ body {
     width: 100%;
     position: relative;
     padding-top: 61px;
-
 }
 
 .akk {
@@ -72,16 +67,10 @@ body {
     width: 1110px;
     height: auto;
     margin: 0px auto;
-    background: rgb(255, 255, 255);
+    background: #ffffff;
 }
 
 
-
-#maincontent{
-
-    width: 1110px;
-    height: auto;
-}
 
 .menu{
     float: left;
@@ -90,6 +79,121 @@ body {
 }
 
 .content{
+    float: right;
     background: #ffffff;
     width: 80%;
+    text-align: center;
+}
+
+#leftmenu{
+    border: 1px solid gray; /*Стиль рамки*/
+    border-bottom-width:0;
+    width:94%;
+    background-color:#F6F6F6;/*Фоновый цвет ячейки*/
+    margin: 8px; /*Ширина отступа*/
+}
+* html #leftmenu {
+    width:150px;
+}
+#leftmenu a{
+    font:bold 16px Anton;/*Шрифт текста*/
+    padding: 2px;/*Внутренний отступ текста ссылки от краев ячейки*/
+    padding-left: 4px;/*Внутренний отступ текста ссылки от левого края ячейки*/
+    display:block;
+    width:100%;/*Ширина ячейки*/
+    color: #000000;/*Цвет текста*/
+    text-decoration:none;/*Подчеркивание у ссылок - нет*/
+    border-bottom: 1px solid gray;
+}
+html>body #leftmenu a{
+    width:auto;
+}
+
+#leftmenu a:hover{
+    background-color: #ffae19;;/*Фоновый цвет ячейки при наведении курсора*/
+    color: #000000; /*Цвет текста при наведении курсора*/
+}
+
+p.title {
+    background-color: #ffe998;
+    color: #000000;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
+
+.h01{
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background: repeat-x #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #D0CFCC;
+}
+
+.content h1{
+    font-family: Tahoma, Verdana;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.block1{
+    font-size: 12px;
+    border-radius: 10px;
+    border: 1px solid #D0CFCC;
+    float: left;
+    display: inline;
+    width: 358px;
+    height: 220px;
+    margin: 35px;
+    margin-top: 0px;
+    padding: 5px;
+    background:  #FFFFFF;
+}
+
+.block1 h2{
+    text-align: center;
+
+}
+
+.block1 h2 a {
+    color: #000066;
+    font-family: Geneva, Arial;
+    font-size: 15px;
     }
+
+.read a:hover {
+    background-color: #E0F5FF;
+}
+.block1 a:hover {
+    color: #FF0000;
+    text-decoration: none;
+}
+.read a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Verdana, Arial;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    background-color: #EEEFE2;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.block1 td{
+
+    text-align: center;
+    
+}
+
+.block2{
+
+    margin-top: 10px;
+}
