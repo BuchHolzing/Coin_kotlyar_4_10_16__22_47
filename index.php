@@ -14,7 +14,7 @@
         <table  class="header">
             <tr>
                 <td class="logo">
-                    <a href="index.html"><img src="img/logo.png"></a>
+                    <a href="index.php"><img src="img/logo.png"></a>
                 </td>
                 <td class="akk">
                     <a>ИМЕЕТЕ АККАУНТ? <span><a class="link" href="www.google.com"> ВОЙТИ </a></span>
@@ -31,13 +31,13 @@
                     <a><strong>Главная</strong></a>
                 </td>
                 <td>
-                    <a><strong>Авторы</strong></a>
+                    <a href="author.php"><strong>Авторы</strong></a>
                 </td>
                 <td>
-                    <a><strong>Лучшее</strong></a>
+                    <a href="best.php"><strong>Лучшее</strong></a>
                 </td>
                 <td>
-                    <a><strong>Инфо</strong></a>
+                    <a href="info.php"><strong>Инфо</strong></a>
                 </td>
             </tr>
         </table>
@@ -48,10 +48,10 @@
         <div class="menu">
             <p class="title" align="center" class="title" > Навигация</p>
             <div id="leftmenu">
-                <a href="">Детективы и Триллеры</a>
-                <a href="">Детское</a>
-                <a href="">Наука, Образование</a>
-                <a href="fantastic.html">Фантастика</a>
+                <a href="D&T.php">Детективы и Триллеры</a>
+                <a href="childly.php">Детское</a>
+                <a href="science.php">Наука, Образование</a>
+                <a href="fantastic.php">Фантастика</a>
             </div>
         </div>
 
@@ -127,7 +127,7 @@
                             <td valign="top" >
                                 <p><b>Автор:</b> <a href="http://book-online.com.ua/author.php?author=9">Донцова Дарья</a></p>
                                 <p><b>Раздел:</b> <a href="http://book-online.com.ua/index.php?cat=10">Иронические детективы</a></p>
-                                <p><b>Год:</b> 2014</p>
+                                <p><b>Год:</b> 2014</p>d
                                 <p><b>Страниц:</b> 109</p>
                                 <p><b>Дата добавления:</b> 03-05-2016</p>
                                 <div class="read"><a href="http://book-online.com.ua/read.php?book=9684" title="Читать книгу.">Читать</a>
